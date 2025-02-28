@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'iranyekan' ;
+    src: url(IRANYekanX-Regular.ttf);
+}
+
+.fontr {
+    font-family: iranyekan ,iranyekan ;
+    
+}
