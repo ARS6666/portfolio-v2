@@ -8,7 +8,11 @@ function Hero() {
         <div className='hero-container' dir="rtl">
             <div className='circle-blue'></div>
             <div className='circle-yellow'></div>
-            <img src={img} className='hero-img'/>
+            <img src={img} className='hero-img' />
+            <span className='fontr hero-header'>طـــــــــــــــــــراح
+                و برنامه‌نویس
+                وب خــــــــــلاق</span>
+            <span className='hero-description fontr'>توسعه و طراحی وب‌سایت‌های حرفه‌ای و زیبا با تمرکز بر عملکرد و تجربه کاربری عالی.</span>
         </div>
     </>);
 }
