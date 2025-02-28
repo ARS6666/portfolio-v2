@@ -1,0 +1,42 @@
+.hero-container {
+    flex: 0 0 100%;
+    max-width: 100%;
+    background-color: #ECF0F1;
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.circle-blue {
+    width: 700px;
+    height: 700px;
+    background-color: #2C3E50;
+    border-radius: 50%;
+    filter: blur(180px);
+    z-index: 20;
+    position: relative;
+    right: -5%;
+    top: 5%;
+}
+
+.circle-yellow {
+    width: 600px;
+    height: 600px;
+    background-color: #F39C12;
+    border-radius: 50%;
+    filter: blur(180px);
+    z-index: 10;
+    position: relative;
+    right: -15%;
+    top: 30%;
+}
+
+.hero-img {
+    position: absolute;
+    left: 23%;
+    top: 74%;
+    transform: translate(-50%, -50%);
+    height: 850px;
+    width: auto;
+    z-index: 300;
+}

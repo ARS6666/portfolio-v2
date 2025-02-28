@@ -1,5 +1,16 @@
+.scrollable {
+  height: 100vh;
+  overflow-y: auto;
+  scrollbar-width: none;
+  position: relative;
+}
+
+.scrollable::-webkit-scrollbar {
+  display: none;
+}
+
 .main-bg-color {
   background-color: #ECF0F1;
-  top :0;
+  top: 0;
   padding-top: 0;
 }
