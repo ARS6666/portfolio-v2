@@ -13,6 +13,7 @@ function Hero() {
                 و برنامه‌نویس
                 وب خــــــــــلاق</span>
             <span className='hero-description fontr'>توسعه و طراحی وب‌سایت‌های حرفه‌ای و زیبا با تمرکز بر عملکرد و تجربه کاربری عالی.</span>
+            <button className='btn fontr'>دانلود رزومه</button>
         </div>
     </>);
 }

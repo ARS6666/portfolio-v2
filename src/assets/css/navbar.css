@@ -13,7 +13,7 @@
 .navbar {
   border-radius: 25px;
   background-color: #2C3E50;
-  height: 70px;
+  height: 85px;
   width: 100%;
   font-size: 1.2rem;
   display: flex;
@@ -34,7 +34,28 @@
   max-width: 8%;
 }
 
-.navbar-text1, .navbar-text {
+.navbar-item-hover {
+  text-decoration: none;
+  position: relative;
+}
+
+.navbar-item-hover::after {
+  content: '';
+  position: absolute;
+  left: 10%;
+  bottom: -8px;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.navbar-item-hover:hover::after {
+  width: 70%;
+}
+
+.navbar-text1,
+.navbar-text {
   font-size: 1.9rem;
   color: #fff;
   align-self: center;

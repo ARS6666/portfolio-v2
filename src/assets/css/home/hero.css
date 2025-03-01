@@ -14,8 +14,9 @@
     border-radius: 50%;
     filter: blur(170px);
     z-index: 20;
-    position: relative;
-    right: -11%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(0%);
     top: 15%;
 }
 
@@ -26,10 +27,12 @@
     border-radius: 50%;
     filter: blur(220px);
     z-index: 10;
-    position: relative;
-    right: -20%;
-    top: 30%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-30%);
+    top: 70%;
 }
+
 
 .hero-img {
     position: absolute;
@@ -61,4 +64,31 @@
     z-index: 400;
     text-align: center;
 
+}
+
+.btn {
+    height: 80px;
+    width: 230px;
+    border: 3px solid;
+    border-color: #F39C12;
+    background-color: #2C3E50;
+    color: #F39C12;
+    font-size: 30px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 400;
+    position: absolute;
+    right: 27%;
+    top: 142%;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    border-color: #2C3E50;
+    background-color: #F39C12;
+    color: #2C3E50;
 }
