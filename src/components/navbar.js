@@ -21,7 +21,7 @@ function Navbar() {
                     <span>مهـــارت ها </span>
                 </div>
                 <div className='navbar-text navbar-item-hover'>
-                    <span>نمونه کارها</span>
+                    <span>تجربیات کاری</span>
                 </div>
                 <div className='navbar-text navbar-item-hover'>
                     <span>ارتبــاط</span>
