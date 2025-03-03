@@ -5,6 +5,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Hero from './components/home/hero';
 import Skills from './components/home/skills';
 import Projects from './components/home/projects';
+import Footer from './components/footer';
 
 const AppContent = () => {
   return (
@@ -14,6 +15,7 @@ const AppContent = () => {
         <Hero />
         <Skills />
         <Projects />
+        <Footer/>
         {/* <Routes>
           <Route path='' element={<Home theme={theme} />} />
         </Routes> */}
