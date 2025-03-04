@@ -1,18 +1,21 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faPhone } from '@fortawesome/free-solid-svg-icons';
+import "../assets/css/footer.css"
+import phone from "../assets/media/phone.png"
 function Footer() {
-    return (<>
+    return (
         <div className='footer-container'>
-            <div className='footer-phone'>
-                <FontAwesomeIcon icon={faPhone} />
+            <div className="footer-title-container">
+                <span className="footer-title fontr">برقراری ارتباط</span>
             </div>
-            <span className='footer-title'></span>
+            <div className='footer-phone-container'>
+                <img src={phone} className='footer-phone' />
+            </div>
+
             <span className='footer-phone'></span>
             <span className='footer-email'></span>
             <span className='footer-telegram'></span>
         </div>
-    </>);
+    );
 }
 
 export default Footer;

@@ -1,0 +1,42 @@
+.footer-container {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(transparent, #2c3e50) !important;
+}
+
+.footer-title {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    width: 100%;
+}
+
+.footer-title-container {
+    color: #F39C12;
+    font-size: 80px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1200;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-phone-container {
+    top: 0;
+    height: 80%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.footer-phone {
+    top: 0;
+    height: 100%;
+    filter: blur(20px);
+    transform: scaleX(-1);
+    position: relative;
+}
