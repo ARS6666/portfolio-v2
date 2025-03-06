@@ -76,3 +76,8 @@
   height: 2000px;
   background-color: #f9f9f9;
 }
+
+.link-deco {
+  text-decoration: none;
+  color: white;
+}

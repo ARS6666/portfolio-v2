@@ -1,15 +1,15 @@
 import React from 'react';
-import "../assets/css/footer.css";
-import phone from "../assets/media/phone.png";
+import "../../assets/css/contact.css";
+import phone from "../../assets/media/phone.png";
 
-function Footer() {
+function Contact() {
     return (
         <div className='footer-container fontr'>
             <div className="footer-title-container">
                 <span className="footer-title">برقراری ارتباط</span>
             </div>
             <div className='footer-phone-container' dir="rtl">
-                <img src={phone} className='footer-phone' />
+                <div className='footer-phone-rotate'><img src={phone} className='footer-phone' /></div>
                 <div className='footer-texts-container'>
                     <div className='footer-phone-text-container'>
                         <span className='footer-phone-text'>تلفن همراه:</span>
@@ -29,4 +29,4 @@ function Footer() {
     );
 }
 
-export default Footer;
+export default Contact;

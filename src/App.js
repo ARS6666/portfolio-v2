@@ -1,24 +1,21 @@
 import './App.css';
-import Nav from '../src/components/navbar';
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import Hero from './components/home/hero';
-import Skills from './components/home/skills';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Nav from '../src/components/navbar';
+import Home from './components/home';
 import Projects from './components/home/projects';
-import Footer from './components/footer';
+import Contact from './components/home/contact';
 
 const AppContent = () => {
   return (
     <>
       <div className='main-bg-color scrollable'>
         <Nav />
-        <Hero />
-        <Skills />
-        <Projects />
-        <Footer/>
-        {/* <Routes>
-          <Route path='' element={<Home theme={theme} />} />
-        </Routes> */}
+        <Routes>
+          <Route path='' element={<Home />} />
+          <Route path='/worksamples' element={<Projects />} />
+          <Route path='/contact' element={<Contact />} />
+        </Routes>
       </div>
     </>
   );
