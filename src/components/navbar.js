@@ -14,7 +14,7 @@ function Navbar() {
                     <Link to="/" className='link-deco'><FontAwesomeIcon icon={faHouse} /></Link>
                 </div>
                 <div className='navbar-text1 navbar-item-hover'>
-                    <span>دربــــاره ی من</span>
+                    <Link to="/aboutme" className='link-deco'>دربــــاره ی من</Link>
                 </div>
                 <div className='navbar-text navbar-item-hover'>
                     <a href={resume} target="_blank" rel="noopener noreferrer" className='link-deco'>رزومـــــه</a>

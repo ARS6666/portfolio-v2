@@ -1,0 +1,47 @@
+.about-container {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-image-container {
+    max-width: 40%;
+    flex: 0 0 40%;
+    padding: 8%;
+    padding-top: 2%;
+    display: flex;
+}
+
+.about-image {
+    width: 100%;
+    height: 100%;
+}
+
+.about-text-container {
+    max-width: 35%;
+    flex: 0 0 35%;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+}
+
+.about-header {
+    font-size: 80px;
+    color: #2C3E50;
+    width: 100%;
+}
+
+.about-title {
+    padding-top: 0.5rem;
+    font-size: 50px;
+    color: #2C3E50;
+}
+
+.about-text {
+    padding-top: 2rem;
+    font-size: 20px;
+    color: #2C3E50;
+}
