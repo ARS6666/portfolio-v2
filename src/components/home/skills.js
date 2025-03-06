@@ -13,7 +13,7 @@ function Skills() {
     return (
         <>
             <div class="skills-title-container">
-                <span class="skills-title fontr">مهارت ها</span>
+                <span class="skills-title fontr" dir="rtl">توی این تکنولوژی ها مهارت دارم ...</span>
             </div>
             <div className='slider' style={{
                 '--width': '100px',

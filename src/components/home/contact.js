@@ -6,7 +6,7 @@ function Contact() {
     return (
         <div className='footer-container fontr'>
             <div className="footer-title-container">
-                <span className="footer-title">برقراری ارتباط</span>
+                <span className="footer-title" dir="rtl">اگر باهام کار داشتید ...</span>
             </div>
             <div className='footer-phone-container' dir="rtl">
                 <div className='footer-phone-rotate'><img src={phone} className='footer-phone' /></div>

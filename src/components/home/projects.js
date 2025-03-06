@@ -6,7 +6,7 @@ function Projects() {
     return (
         <>
             <div class="projects-title-container">
-                <span class="projects-title fontr">تجربیات کاری</span>
+                <span class="projects-title fontr">کار هایی که تا الان انجام دادم</span>
             </div>
             <div className='projects-card-container fontr'>
                 <div className='project-card'>

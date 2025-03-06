@@ -92,3 +92,12 @@
     background-color: #F39C12;
     color: #2C3E50;
 }
+
+.link-deco-hero {
+    text-decoration: none;
+    color: #F39C12;
+}
+
+.link-deco-hero:hover {
+    color: #2C3E50;
+}
