@@ -76,11 +76,10 @@
 .footer-email,
 .footer-telegram {
     color: white;
-    -webkit-text-stroke: 0.5px #ECF0F1;
+    -webkit-text-stroke: 0.8px #476687;
     font-size: 50px;
     letter-spacing: .5px;
     padding: 10px;
-    background-color: #476687;
 }
 
 .footer-phone-text-container,
