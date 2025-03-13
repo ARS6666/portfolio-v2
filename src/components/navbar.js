@@ -1,13 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import "../assets/css/navbar.css";
 import "../assets/font/font.css";
 import resume from "../assets/resume.pdf";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+
     return (
         <>
             <Helmet>
@@ -16,6 +22,9 @@ function Navbar() {
             </Helmet>
             <div className="navbar-container fontr" dir="rtl">
                 <div className='navbar'>
+                    <button className="burger-menu" onClick={toggleMenu}>
+                        <FontAwesomeIcon icon={isOpen ? faTimes : faBars} />
+                    </button>
                     <div className='navbar-item navbar-item-hover'>
                         <Link to="/" className='link-deco'><FontAwesomeIcon icon={faHouse} /></Link>
                     </div>
@@ -33,6 +42,16 @@ function Navbar() {
                     </div>
                     <div className='navbar-text1 navbar-item-hover'>
                         <Link to="/contact" className='link-deco'>ارتبــاط</Link>
+                    </div>
+                </div>
+                <div className={`menu-cover ${isOpen ? "open" : ""}`}>
+                    <div className="menu-items">
+                        <Link to="/" className="menu-item link-deco" onClick={toggleMenu}>خانه</Link>
+                        <Link to="/aboutme" className="menu-item link-deco" onClick={toggleMenu}>دربــــاره ی من</Link>
+                        <a href={resume} target="_blank" rel="noopener noreferrer" className="menu-item link-deco" onClick={toggleMenu}>رزومـــــه</a>
+                        <Link to="/worksamples" className="menu-item link-deco" onClick={toggleMenu}>تجربیات کاری</Link>
+                        <a href="https://github.com/ARS6666" target="_blank" rel="noopener noreferrer" className="menu-item link-deco" onClick={toggleMenu}>گیـت هاب</a>
+                        <Link to="/contact" className="menu-item link-deco" onClick={toggleMenu}>ارتبــاط</Link>
                     </div>
                 </div>
             </div>

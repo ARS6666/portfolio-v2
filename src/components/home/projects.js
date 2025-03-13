@@ -19,14 +19,14 @@ function Projects() {
                     <div className="project-card">
                         <img className="project-image" src={meszanajn} alt="Mes Honar Zanjan project" />
                         <h3 className="project-name">مس هنر زنجان</h3>
-                        <p className="project-type">سایت فروشگاهی</p>
+                        <h1 className="project-type">سایت فروشگاهی</h1>
                     </div>
                 </a>
                 <a className="link-deco-black" href="/worksample2">
                     <div className="project-card fontr">
                         <img className="project-image" src={ida} alt="IDA-LTD project" />
                         <h3 className="project-name">IDA-LTD</h3>
-                        <p className="project-type">سایت شرکتی</p>
+                        <h1 className="project-type">سایت شرکتی</h1>
                     </div>
                 </a>
             </div>
