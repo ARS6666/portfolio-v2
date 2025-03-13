@@ -6,7 +6,7 @@ import Home from './components/home';
 import Projects from './components/home/projects';
 import Contact from './components/home/contact';
 import Aboutme from './components/aboutme';
-
+import One from "./components/worksamples/one"
 const AppContent = () => {
   return (
     <>
@@ -17,6 +17,7 @@ const AppContent = () => {
           <Route path='/worksamples' element={<Projects />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/aboutme' element={<Aboutme />} />
+          <Route path='/worksample1' element={<One />} />
         </Routes>
       </div>
     </>

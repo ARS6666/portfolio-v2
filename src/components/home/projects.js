@@ -10,13 +10,13 @@ function Projects() {
                 <span class="projects-title fontr">... کار هایی که تا الان انجام دادم</span>
             </div>
             <div className='projects-card-container fontr'>
-                <a className='link-deco-black' href="/worksample?id=1">
+                <a className='link-deco-black' href="/worksample1">
                     <div className='project-card'>
                         <img className='project-image' src={meszanajn} />
                         <span className='project-name'>مس هنر زنجان</span>
                         <span className='project-type'>سایت فروشگاهی</span>
                     </div> </a>
-                <a className='link-deco-black' href="/worksample?id=1">
+                <a className='link-deco-black' href="/worksample2">
                     <div className='project-card fontr'>
                         <img className='project-image' src={ida} />
                         <span className='project-name'>IDA-LTD</span>
