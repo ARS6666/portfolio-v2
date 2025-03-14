@@ -102,3 +102,31 @@
     padding: .5rem;
     display: block;
 }
+
+@media (max-width: 768px) {
+    .worksample-header {
+        padding: 0.5rem;
+        padding-top: 0;
+        font-size: 30px;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .worksample-description {
+        font-size: 20px;
+        text-align: start;
+        max-width: 80%;
+        padding: 0.2rem;
+        word-spacing: 0.2rem;
+        line-height: 2.1rem;
+    }
+
+    .image-row {
+        border-radius: 15px;
+        flex: 1 1 100%;
+        max-width: 100%;
+        padding: .5rem;
+        display: block;
+    }
+}

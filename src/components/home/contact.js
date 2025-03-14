@@ -26,7 +26,7 @@ function Contact() {
                     </div>
                     <div className='footer-telegram-container'>
                         <span className='footer-telegram'>آیدی تلگرام:</span>
-                        <span className='footer-telegram'>ARSARS66@</span>
+                        <span className='footer-telegram'>AAARSARS@</span>
                     </div>
                 </div>
             </div>

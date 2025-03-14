@@ -131,29 +131,30 @@
         position: absolute;
         font-size: 55px;
         z-index: 400;
-        left: 10%;
-        top: 60%;
+        left: 8%;
+        top: 51%;
         width: 80%;
     }
 
     .hero-description {
-        color: #2C3E50;
+        color: transparent!important;
         position: absolute;
-        font-size: 20px;
+        font-size: 27px;
         width: 90%;
         left: 6%;
-        top: 90%;
+        top: 79%;
         z-index: 400;
+        -webkit-text-stroke: 0.13rem #2C3E50;
         text-align: center;
     }
 
     .btn {
-        height: 50px;
-        width: 170px;
-        font-size: 20px;
+        height: 70px;
+        width: 200px;
+        font-size: 25px;
         border-radius: 15px;
         right: 29%;
-        top: 104%;
+        top: 100%;
         transition: all 0.3s ease-in-out;
     }
 
