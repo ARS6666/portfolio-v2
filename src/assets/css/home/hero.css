@@ -142,7 +142,7 @@
         font-size: 27px;
         width: 90%;
         left: 6%;
-        top: 79%;
+        top: 81%;
         z-index: 400;
         -webkit-text-stroke: 0.13rem #2C3E50;
         text-align: center;
@@ -150,11 +150,11 @@
 
     .btn {
         height: 70px;
-        width: 200px;
-        font-size: 25px;
+        width: 180px;
+        font-size: 24px;
         border-radius: 15px;
         right: 29%;
-        top: 100%;
+        top: 105%;
         transition: all 0.3s ease-in-out;
     }
 

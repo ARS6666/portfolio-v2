@@ -100,7 +100,7 @@
 
     .projects-title-container {
         color: #F39C12;
-        font-size: 40px;
+        font-size: 30px;
         padding-top: .5rem;
         text-align: center;
         display: flex;
@@ -108,24 +108,24 @@
     }
 
     .projects-card-container {
-        padding-top: .5rem;
+        padding-top: 0;
     }
 
     .projects-card-container {
-        padding-bottom: .5rem;
+        padding-bottom: 1rem;
     }
 
     .project-card {
         margin: 0.5rem;
-        width: 215px;
-        height: 300px;
+        width: 165px;
+        height: 250px;
         border-radius: 15px;
     }
 
 
     .project-image {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         border-radius: 10px;
         margin-top: 10px;
         margin-bottom: 0;

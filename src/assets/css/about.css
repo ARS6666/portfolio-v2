@@ -45,3 +45,48 @@
     font-size: 20px;
     color: #2C3E50;
 }
+
+@media (max-width : 768px) {
+    .about-image-container {
+        display: block;
+        position: absolute;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 8%;
+        padding-top: 130%;
+
+    }
+
+    .about-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-text-container {
+        max-width: 90%;
+        left: 5%;
+        flex: 0 0 90%;
+        padding-top: 3%;
+        position: absolute;
+
+    }
+
+    .about-header {
+        font-size: 60px;
+        color: #2C3E50;
+        text-align: start;
+    }
+
+    .about-title {
+        padding-top: 0.5rem;
+        font-size: 35px;
+        color: #2C3E50;
+    }
+
+    .about-text {
+        padding-top: 2rem;
+        font-size: 15px;
+        color: #2C3E50;
+    }
+
+}

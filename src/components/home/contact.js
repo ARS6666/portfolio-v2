@@ -22,7 +22,7 @@ function Contact() {
                     </div>
                     <div className='footer-email-container'>
                         <span className='footer-email'>ایمیل:</span>
-                        <span className='footer-email'>arsprogramming123@gmail.com</span>
+                        <span className='footer-email'>arsprogramming123</span>
                     </div>
                     <div className='footer-telegram-container'>
                         <span className='footer-telegram'>آیدی تلگرام:</span>
