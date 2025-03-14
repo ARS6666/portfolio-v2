@@ -76,6 +76,7 @@
     width: 100%;
     padding: 0;
     margin: 0;
+    font-weight: normal!important;
 }
 
 .project-type {
@@ -84,6 +85,7 @@
     position: relative;
     padding: 0;
     margin: 0;
+    font-weight: normal!important;
 }
 
 @media (max-width: 768px) {
@@ -121,5 +123,23 @@
     }
 
 
+    .project-image {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 0;
+        object-fit: cover;
+    }
+
+    .project-name {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .project-type {
+        font-size: 10px;
+        width: 100%;
+    }
 
 }
