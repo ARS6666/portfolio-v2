@@ -61,3 +61,35 @@
 .slider:hover .item {
     animation-play-state: paused !important;
 }
+
+@media (max-width: 768px) {
+    .skills-title {
+        width: 80%;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        font-weight: bold;
+        right: 10%;
+    }
+
+    .skills-title-container {
+        color: #F39C12;
+        font-size: 40px;
+        padding-top: .5rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .slider {
+        padding-top: .5rem;
+        padding-bottom: .75rem;
+    }
+
+    .skill-image {
+        width: auto;
+        border-radius: 15px;
+        height: 60px;
+        padding: rem;
+    }
+}

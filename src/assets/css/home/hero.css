@@ -103,6 +103,15 @@
 }
 
 @media (max-width: 768px) {
+    .hero-container {
+        flex: 0 0 100%;
+        max-width: 100%;
+        background-color: #ECF0F1;
+        height: 150%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .circle-blue {
         display: none;
     }

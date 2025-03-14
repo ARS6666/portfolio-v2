@@ -12,7 +12,7 @@ function Projects() {
                 <meta name="keywords" content="projects, work samples, portfolio" />
             </Helmet>
             <div className="projects-title-container">
-                <span className="projects-title fontr">... کار هایی که تا الان انجام دادم</span>
+                <span className="projects-title fontr" dir="rtl">کار هایی که تا الان انجام دادم ...</span>
             </div>
             <div className="projects-card-container fontr">
                 <a className="link-deco-black" href="/worksample1">
