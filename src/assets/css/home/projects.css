@@ -109,23 +109,22 @@
 
     .projects-card-container {
         padding-top: 0;
-    }
-
-    .projects-card-container {
         padding-bottom: 1rem;
+        max-width: 100%;
+        flex: 0 0 100%;
+        flex-wrap: wrap;
     }
-
     .project-card {
-        margin: 0.5rem;
-        width: 165px;
-        height: 250px;
+        width: 80%;
+        height: 400px;
         border-radius: 15px;
+        margin: 0 auto;
+        margin-top: 0.9rem;
     }
-
 
     .project-image {
-        width: 150px;
-        height: 150px;
+        width: 85%;
+        height: 70%;
         border-radius: 10px;
         margin-top: 10px;
         margin-bottom: 0;

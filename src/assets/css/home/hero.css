@@ -127,7 +127,7 @@
     .hero-img {
         position: absolute;
         top: 83%;
-        left: 45%;
+        left: 57%;
         transform: translate(-50%, -50%);
         height: 120%;
         max-width: 100%;
@@ -140,7 +140,7 @@
         position: absolute;
         font-size: 50px;
         z-index: 400;
-        left: 5%;
+        left: 6%;
         top: 48%;
         width: 80%;
     }
@@ -149,12 +149,13 @@
         position: absolute;
         font-size: 20px;
         width: 90%;
-        left: 4%;
+        left: 7%;
         top: 75%;
         z-index: 400;
         color: #2C3E50;
         font-weight: bold;
         text-align: center;
+        text-shadow: 1px 2px 2px #ECF0F1;
     }
 
     .btn {
@@ -162,8 +163,8 @@
         width: 140px;
         font-size: 20px;
         border-radius: 15px;
-        right: 33%;
-        top: 90%;
+        right: 32%;
+        top: 88%;
         transition: all 0.3s ease-in-out;
     }
 

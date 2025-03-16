@@ -82,16 +82,11 @@
 
     .skills-title-container {
         color: #F39C12;
-        font-size: 40px;
+        font-size: 30px;
         padding-top: .5rem;
         text-align: center;
         display: flex;
         justify-content: center;
-    }
-
-    .slider {
-        padding-top: .5rem;
-        padding-bottom: .75rem;
     }
 
     .skill-image {
