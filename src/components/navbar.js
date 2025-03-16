@@ -50,7 +50,7 @@ function Navbar() {
                         <Link to="/aboutme" className="menu-item link-deco" onClick={toggleMenu}>دربــــاره ی من</Link>
                         <a href={resume} target="_blank" rel="noopener noreferrer" className="menu-item link-deco" onClick={toggleMenu}>رزومـــــه</a>
                         <Link to="/worksamples" className="menu-item link-deco" onClick={toggleMenu}>تجربیات کاری</Link>
-                        <a href="https://github.com/ARS6666" target="_blank" rel="noopener noreferrer" className="menu-item link-deco" onClick={toggleMenu}>گیـت هاب</a>
+                        <a href="https://github.com/ARS6666" target="_blank" className="menu-item link-deco" onClick={toggleMenu}>گیـت هاب</a>
                         <Link to="/contact" className="menu-item link-deco" onClick={toggleMenu}>ارتبــاط</Link>
                     </div>
                 </div>

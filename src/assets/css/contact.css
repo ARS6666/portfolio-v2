@@ -109,8 +109,7 @@
 
 @media (max-width: 768px) {
     .footer-container {
-        padding-bottom: 1.5rem;
-        height: 70%;
+        height: 80%;
         width: 100%;
         background-image: linear-gradient(#ECF0F1, #476687) !important;
         position: relative;
@@ -132,6 +131,7 @@
         text-align: center;
         display: flex;
         justify-content: center;
+        z-index: 101;
     }
 
     .footer-phone-container {
@@ -142,11 +142,12 @@
         flex-direction: column;
         align-items: center;
         position: relative;
-        z-index: 1000;
+        z-index: 100;
+        padding-top: 2%;
     }
 
     .footer-phone-rotate {
-        padding-top: 1%;
+        padding-top: 2%;
         top: 20%;
         margin-right: 7%;
         width: 90%;
@@ -164,9 +165,9 @@
         align-items: center;
         position: relative;
         z-index: 10;
-        padding-top: 25%;
-        left: 7%;
+        padding-top: 40%;
     }
+
 
     .footer-phone-text,
     .footer-email,
@@ -182,23 +183,22 @@
     .footer-email-container,
     .footer-telegram-container {
         display: flex;
+        flex-wrap: wrap;
         position: relative;
-        z-index: 1000;
-        padding-top: 40px;
-        flex: 0 0 100%;
-        max-width: 80%;
+        z-index: 101;
+        max-width: 100%;
     }
 
     .footer-phone-text-container {
-        gap: 100px;
+        gap: 10px;
     }
 
     .footer-email-container {
-        gap: 40px;
+        gap: 4px;
     }
 
     .footer-telegram-container {
-        gap: 110px;
+        gap: 14px;
     }
 
 }

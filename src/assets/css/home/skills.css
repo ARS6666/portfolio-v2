@@ -14,21 +14,29 @@
 }
 
 .slider {
-    padding-top: 3.5rem;
-    padding-bottom: 4.5rem;
+    position: relative;
     width: 100%;
     height: var(--height);
     overflow: hidden;
     mask-image: linear-gradient(to right,
             transparent,
-            #000 10% 90%,
+            rgba(0, 0, 0, 1) 10%,
+            rgba(0, 0, 0, 1) 90%,
+            transparent);
+    -webkit-mask-image: linear-gradient(to right,
+            transparent,
+            rgba(0, 0, 0, 1) 10%,
+            rgba(0, 0, 0, 1) 90%,
             transparent);
 }
+
 
 .slider .list {
     display: flex;
     width: 100%;
-    min-width: calc(var(--width) * var(--quantity));
+    max-width: 100%;
+    overflow: hidden;
+    min-width: unset;
 }
 
 .slider .list .item {
